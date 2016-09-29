@@ -5,7 +5,7 @@
  */
 
 // node modules
-var apidoc = require('apidoc-core');
+var apidoc = require('apidoc-core-myob');
 var exec   = require('child_process').exec;
 var fs     = require('fs-extra');
 var path   = require('path');

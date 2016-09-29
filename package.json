@@ -1,6 +1,6 @@
 {
-  "name": "apidoc",
-  "version": "0.16.1",
+  "name": "apidoc-myob",
+  "version": "0.16.2",
   "description": "RESTful web API Documentation Generator",
   "author": "Peter Rottmann <rottmann@inveris.de>",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "apidoc-core": "~0.7.1",
+    "apidoc-core-myob": "~0.7.2",
     "fs-extra": "~0.28.0",
     "lodash": "~4.11.1",
     "markdown-it": "^6.0.1",
