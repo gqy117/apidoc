@@ -187,6 +187,7 @@
               </td>
             {{/if}}
             <td>
+            {{#if jurisdiction}}<p class="default-value">{{__ "Jurisdiction:"}} <code>{{{jurisdiction}}}</code></p>{{/if}}
             {{{nl2br description}}}
             {{#if defaultValue}}<p class="default-value">{{__ "Default value:"}} <code>{{{defaultValue}}}</code></p>{{/if}}
             {{#if size}}<p class="type-size">{{__ "Size range:"}} <code>{{{size}}}</code></p>{{/if}}
